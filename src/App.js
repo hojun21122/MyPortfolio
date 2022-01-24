@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.module.css';
+import Header from './Component/Header/header';
+import Home from './Component/Home/home';
+import About from './Component/About/about';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import React, { useState, useEffect } from 'react';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import FetchData, { fetchData }  from './API/index';
+
+function App(props) {
+
+    return(
+      <Router>
+        <Header/>
+        
+          
+        <Switch>
+            <Route exact path="/" component={Home}/>
+            <Route path="/about" component={About}/>
+            <Route path="/myp"/>
+            <Route path="/corona">
+              
+
+            </Route>
+            
+        </Switch>
+        
+      </Router>
+    );
 }
 
 export default App;
