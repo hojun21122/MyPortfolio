@@ -9,42 +9,40 @@
   color: bisque;
   text-align: center;
 }
-.navbar_logo {
-  display: inline;
+.logo {
+  width: 3vw;
+  margin: 0px;
+  padding: 0px;
 }
 .navbar_logo a {
-  display: inline;
   float: left;
-  width: 10px;
+  width: 8px;
   margin-left: 30px;
 }
 .navbar_logo a img {
-  display: inline;
   float: left;
-  width: 80px;
+  width: 3vw;
   margin-left: 30px;
 }
 .navbar_menu {
-  display: inline;
   list-style-type: none;
+  margin-top: 0;
 }
 .navbar_menu li {
   display: inline-block;
   text-align: center;
-
-  padding-top: 15px;
   margin: 15px;
 }
 .navbar_menu li a {
-  display: block;
   letter-spacing: 3px;
   padding-left: 10px;
   padding-right: 10px;
   text-align: center;
   text-decoration: none;
-  color: rgb(95, 95, 95);
-  font-family: "VT323", monospace;
-  font-size: 1.15vw;
-  -webkit-text-stroke: 0.2px rgb(58, 58, 58);
-  text-shadow: 1px 1px rgba(197, 188, 188, 0.719);
+  color: rgb(0, 0, 0);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 0.9vw;
+  letter-spacing: 1px;
+  -webkit-text-stroke: 0.2px rgb(0, 0, 0);
 }
