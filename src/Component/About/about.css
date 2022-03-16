@@ -1,3 +1,4 @@
-div.about_background {
-  background-color: rgb(253, 90, 112);
+.div_background {
+  background-color: rgba(8, 1, 19, 0.897);
+  color: white;
 }

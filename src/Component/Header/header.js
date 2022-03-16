@@ -14,10 +14,10 @@ function Header(props){
               <nav className={styles.navbar}>
                 <ul className={styles.navbar_menu}>
                     <li><a href="/">Home</a></li>
-                    <li><a href="/myp">My Page</a></li>
+                    <li><a href="/about">About Me</a></li>  
                     <li><a href="/"><img className={styles.logo} src={logo} alt="logo"/></a>    </li>
-                    <li><a href="/about">About Me</a></li>                   
-                    <li><a href="/corona">Corona</a></li> 
+                    <li><a href="/myp">My Page</a></li>                 
+                    <li><a href="/weather">Weather</a></li> 
                 </ul>
               </nav> 
             </Container>

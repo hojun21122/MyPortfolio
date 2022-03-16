@@ -15,7 +15,10 @@ function App(props) {
         
           
         <Switch>
-            <Route exact path="/" component={Home}/>
+            <Route exact path="/" component={Home}>
+              <Home></Home>
+              <About></About>  
+            </Route>
             <Route path="/about" component={About}/>
             <Route path="/myp"/>
             <Route path="/corona">
