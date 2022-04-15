@@ -1,4 +1,50 @@
 .div_background {
   background-color: rgba(8, 1, 19, 0.897);
   color: white;
+  scroll-behavior: smooth;
+  padding-bottom: 5vw;
+}
+
+.home_background {
+  display: grid;
+  padding-top: 5vw;
+  grid-template-columns: 6fr 4fr;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+  Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.img_frame{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 18vw;
+  height: 18vw;
+}
+.profilePic {
+  display:inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+.about-fade-in{
+  opacity: 0;
+  transform: translateY(7vw);
+  visibility: hidden;
+  transition: opacity 0.6s ease-out, transform 0.8s ease-out;
+  will-change: opacity, visibility;
+}
+
+
+.about-fade-in.is-visible{
+  opacity: 1;
+  transform: none;
+  visibility: visible;
+}
+.info h1{
+  padding-top: 2vw;
+  padding-left: 10vw;
+  font-weight: 600;
+  font-size: 2.5vw;
+}
+.info p{
+  padding-left: 12vw;
+  padding-right: 5vw;
 }

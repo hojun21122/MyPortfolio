@@ -2,6 +2,7 @@ import './App.module.css';
 import Header from './Component/Header/header';
 import Home from './Component/Home/home';
 import About from './Component/About/about';
+import Footer from './Component/footer/footer';
 
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
@@ -27,6 +28,7 @@ function App(props) {
             </Route>
             
         </Switch>
+        <Footer></Footer>
         
       </Router>
     );

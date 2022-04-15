@@ -1,24 +1,36 @@
-import React, {  Component } from "react";
+import React, {  Component, useState } from "react";
 import './home.css'
-import bckimg from '../../image/IMG_8907.JPG'
 import { Container } from "@material-ui/core";
-import { useEffect } from "react";
+import { useEffect, useRef} from "react";
 
 /*
 <a>linkedin.com/in/hojunhwangHJ</a><br></br>
                         <a>647-550-9650</a><br></br>
                         <a>hojun21122@gmail.com</a><br></br>
 */
-function Home (props) {     
+
+
+
+
+function Home (props) {
+    const containerRef = useRef();
+    const [isVisible, setisVisible] = useState(true);
+    useEffect(() =>{
+        const observer = new IntersectionObserver(entries =>{
+            entries.forEach(entry => setisVisible(entry.isIntersecting))
+        });
+        observer.observe(containerRef.current);
+        return() => observer.unobserve(containerRef.current);
+    },)
         return (    
             <Container fixed>
                  <div className="main2">
-                     <div className="main2_txt">
-                        <h2>Welcome to the world <br /> that I've created</h2>
-                        <Container fixed className="subtitle">
-                             <a>This is HoJun's portfolio page</a>
-                        </Container>
-                     </div>
+                        <div classname='main2-txt'>
+                                <h2 className={`main-header ${isVisible ? 'is-visible' : ''}`}>Welcome to the world <br /> that I've created</h2>
+                                <Container className={`subtitle ${isVisible ? 'is-visible' : ''}`} ref={containerRef}>
+                                    <a>This is HoJun's portfolio page</a>
+                                </Container>
+                        </div>
                  </div>
             </Container>
                             
