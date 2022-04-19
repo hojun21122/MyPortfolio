@@ -20,7 +20,7 @@ function App(props) {
               <Home></Home>
               <About></About>  
             </Route>
-            <Route path="/about" component={About}/>
+            <Route path="/about"/>
             <Route path="/myp"/>
             <Route path="/corona">
               

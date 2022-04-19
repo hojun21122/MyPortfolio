@@ -7,9 +7,6 @@ import Grid from '@mui/material/Grid';
 function Header(props){  
         return (                    
           <div className={styles.header}>
-            <div className={styles.announce}>
-                <a>This is hojun's portfolio page</a>
-            </div>
             <Container>
               <nav className={styles.navbar}>
                 <ul className={styles.navbar_menu}>
