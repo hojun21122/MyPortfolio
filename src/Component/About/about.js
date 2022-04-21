@@ -141,18 +141,6 @@ function About(props) {
                         </div> 
                     </FadeInSection>
                    
-                    <FadeInSection>
-                        <div className="home_background">
-                        <div className="info">
-                            <h1>My Interest</h1>
-                            <p> I am </p> 
-                        </div>
-                        
-                        <div className="img_frame">
-                                <img src={profile_pic} className="profilePic"></img>
-                            </div>
-                         </div>
-                    </FadeInSection>
                 </div>
             </Container>
             </div>         

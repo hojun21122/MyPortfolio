@@ -1,17 +1,4 @@
-@font-face {
-  font-family: "Comforter Brush";
-  src: local("Comforter Brush"),
-    url(../../fonts/ComforterBrush-Regular.ttf) format("truetype");
-}
-@font-face {
-  font-family: "slabo";
-  src: local("slabo"), url(../../fonts/Slabo27px-Regular.ttf) format("truetype");
-}
-@font-face {
-  font-family: "domine";
-  src: local("domine"),
-    url(../../fonts/Domine-VariableFont_wght.ttf) format("truetype");
-}
+
 div.home_background {
   scroll-behavior: smooth;
   margin-top: 15px;

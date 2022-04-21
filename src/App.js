@@ -2,6 +2,7 @@ import './App.module.css';
 import Header from './Component/Header/header';
 import Home from './Component/Home/home';
 import About from './Component/About/about';
+import AboutMe from './Component/AboutMe/aboutMe'
 import Footer from './Component/footer/footer';
 
 import React, { useState, useEffect } from 'react';
@@ -20,7 +21,7 @@ function App(props) {
               <Home></Home>
               <About></About>  
             </Route>
-            <Route path="/about"/>
+            <Route path="/aboutMe" component={AboutMe}/>
             <Route path="/myp"/>
             <Route path="/corona">
               
