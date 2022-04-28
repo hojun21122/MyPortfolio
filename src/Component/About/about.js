@@ -66,7 +66,7 @@ function About(props) {
                                 <p> ㅇ Responsible for managing and designing website using
                                     Squarespace and managed
                                     donators data with excel files. Check out our website!</p>
-                                <p href="https://www.goodmusicministry.org/" className="link" target="blank" > (https://www.goodmusicministry.org/)</p>
+                                <a href="https://www.goodmusicministry.org/" className="link" target="blank" > (https://www.goodmusicministry.org/)</a>
                                 <p>ㅇ Project planning and managing cultural events with more than 100 people</p>
                                 <p>ㅇ Reaching out to donors to summarize and provide activities
                                     done with donors donations.</p>
@@ -123,7 +123,7 @@ function About(props) {
                                 <p> I am programmable with C/C++, C#, Java, Python, JavaScript, Html,CSS, Swift, Objective C </p>
                             </div>
                             <div className="img_frame">
-                                <img src={myskill} className="profilePic"></img>
+                                <img src={myskill} className="seneca"></img>
                             </div>
                         </div>
                     </FadeInSection>
