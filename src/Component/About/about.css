@@ -1,6 +1,6 @@
 .div_background {
-  background-color: #f2f2f2;
-  color: black;
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.909), rgba(32, 22, 48, 0.863), rgba(38, 38, 56, 0.918));
+  color: white;
   scroll-behavior: smooth;
   padding-bottom: 5vw;
 }
