@@ -106,7 +106,7 @@
 
   .video-container {
     width: 100%;
-    height: 500px;
+    height: 25vw;
     object-fit: cover;
   object-position: bottom;
     position: relative;
@@ -131,7 +131,8 @@
   color: #ffffff;
   text-align: center;
   align-items: center;
-  transform: translateY(70%);
+  transform: translateY(60%);
+  
 }
 .interest{
   font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,

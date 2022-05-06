@@ -4,6 +4,8 @@ import Home from './Component/Home/home';
 import About from './Component/About/about';
 import AboutMe from './Component/AboutMe/aboutMe'
 import Footer from './Component/footer/footer';
+import Contact from './Component/ContactMe/contact'
+import MyPage from './Component/MyPage/mypage'
 
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
@@ -22,8 +24,8 @@ function App(props) {
               <About></About>  
             </Route>
             <Route path="/aboutMe" component={AboutMe}/>
-            <Route path="/myp"/>
-            <Route path="/corona">
+            <Route path="/mypage" component={MyPage}/>
+            <Route path="/contact" component={Contact}>
               
 
             </Route>

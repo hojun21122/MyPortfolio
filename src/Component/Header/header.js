@@ -13,7 +13,7 @@ function Header(props){
                     <li><a href="/">Home</a></li>
                     <li><a href="/aboutMe">About Me</a></li>  
                     <li><a href="/"><img className={styles.logo} src={logo} alt="logo"/></a>    </li>
-                    <li><a href="/myp">My Page</a></li>                 
+                    <li><a href="/mypage">My Page</a></li>                 
                     <li><a href="/contact">Contact Me</a></li> 
                 </ul>
               </nav> 
