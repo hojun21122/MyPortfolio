@@ -6,7 +6,6 @@ import AboutMe from './Component/AboutMe/aboutMe'
 import Footer from './Component/footer/footer';
 import Contact from './Component/ContactMe/contact'
 import MyPage from './Component/MyPage/mypage'
-
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import FetchData, { fetchData }  from './API/index';
@@ -17,7 +16,7 @@ function App(props) {
       <Router>
         <Header/>
         
-          
+
         <Switch>
             <Route exact path="/" component={Home}>
               <Home></Home>
