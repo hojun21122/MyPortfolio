@@ -3,6 +3,11 @@ import './contact.css'
 import { Container } from "@material-ui/core";
 import { useEffect, useRef} from "react";
 import emailjs from '@emailjs/browser';
+import doc from '../../image/doc.png'
+import linkedin from '../../image/linkedIn.png'
+import facebook from '../../image/facebook.png'
+import insta from '../../image/insta.png'
+import resume from '../../HoJunHwang2022.pdf'
 
 /*
 <a>linkedin.com/in/hojunhwangHJ</a><br></br>
@@ -45,8 +50,27 @@ function Contact (props) {
                             <input type="submit" value="Send" required/>
                         </form>
                     </div>
-                    <div>
-
+                    <div className="myprofile">
+                        <div className="myinfo" >
+                            <h2> My Info</h2>
+                            <hr></hr>
+                            <a>Ho-Jun Hwang</a><br></br>
+                            <a>647-550-9650</a><br></br>
+                            <a>hojun21122@gmail.com</a><br></br>
+                        </div>
+                        
+                        <div className="resumeBlock">
+                            <a href={resume}  className="resume" target="blank"><img src={doc} className="doc_icon"></img><br></br>Resume<br></br>  </a>
+                        </div>
+                        <div className="resumeBlock">
+                            <a href="https://www.linkedin.com/in/hojunhwang1101/"  className="resume" target="blank"><img src={linkedin} className="doc_icon"></img><br></br>Linked in  <br></br></a>
+                        </div>
+                        <div className="resumeBlock">
+                            <a href="https://www.instagram.com/_hojun_h/"  className="resume" target="blank"><img src={insta} className="doc_icon"></img><br></br>Instagram  <br></br></a>
+                        </div>
+                        <div className="resumeBlock">
+                            <a href="https://www.facebook.com/Hojun211/"  className="resume" target="blank"><img src={facebook} className="doc_icon"></img><br></br>facebook <br></br> </a>
+                        </div>
                     </div>
                 </div>
                 

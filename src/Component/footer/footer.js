@@ -17,7 +17,7 @@ function Footer (props) {
             <Container fixed>
                
                  <div className="footer">
-                        all rights reserves @Ho Jun Hwang <br></br>
+                        This page is made by Ho Jun Hwang <br></br>
                         Thank you for visiting                        
                  </div>
             </Container>
