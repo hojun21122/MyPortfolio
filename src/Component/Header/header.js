@@ -10,7 +10,7 @@ function Header(props){
             <Container>
               <nav className={styles.navbar}>
                 <ul className={styles.navbar_menu}>
-                    <li><a href="/">Home</a></li>
+                    <li><a href="/MyPortfolio">Home</a></li>
                     <li><a href="/aboutMe">About Me</a></li>  
                     <li><a href="/"><img className={styles.logo} src={logo} alt="logo"/></a>    </li>
                     <li><a href="/mypage">My Page</a></li>                 
