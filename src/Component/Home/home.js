@@ -19,11 +19,11 @@ function Home (props) {
         const observer = new IntersectionObserver(entries =>{
             entries.forEach(entry => setisVisible(entry.isIntersecting))
         });
-        observer.observe(containerRef.current);
-        return() => observer.unobserve(containerRef.current);
+        observer.observe(containerRef.current);;
     },)
         return (    
-            <Container fixed>
+            <div>
+                    <Container fixed>
                  <div className="main2">
                         <div classname='main2-txt'>
                                 <h2 className={`main-header ${isVisible ? 'is-visible' : ''}`}>Welcome to the world <br /> that I've created</h2>
@@ -33,6 +33,8 @@ function Home (props) {
                         </div>
                  </div>
             </Container>
+            </div>
+            
                             
         );
 }

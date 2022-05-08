@@ -9,6 +9,7 @@ import MyPage from './Component/MyPage/mypage'
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import FetchData, { fetchData }  from './API/index';
+import { HashRouter , Link} from "react-router-dom";
 
 function App(props) {
 
@@ -18,16 +19,17 @@ function App(props) {
         
 
         <Switch>
-            <Route exact path="/MyPortfolio" component={Home}>
-              <Home></Home>
-              <About></About>  
-            </Route>
-            <Route path="/aboutMe" component={AboutMe}/>
-            <Route path="/mypage" component={MyPage}/>
-            <Route path="/contact" component={Contact}>
-              
-
-            </Route>
+          <HashRouter basename="/">
+            <Route exact path="/" component={Home}>
+                <Home></Home>
+                <About></About>  
+              </Route>
+              <Route path="/aboutMe" component={AboutMe}/>
+              <Route path="/mypage" component={MyPage}/>
+              <Route path="/contact" component={Contact}>
+              </Route>
+          </HashRouter>
+            
             
         </Switch>
         <Footer></Footer>
