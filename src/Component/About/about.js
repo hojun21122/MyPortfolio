@@ -1,13 +1,12 @@
-import React, {  Component } from "react";
+import React  from "react";
 import './about.css'
-import { Container, Fade } from "@material-ui/core";
+import { Container } from "@material-ui/core";
 import profile_pic from '../../image/profilePic.jpg'
 import gmm from '../../image/gmm.png'
 import seneca from '../../image/seneca.png'
 import machi from '../../image/machi.png'
 import seaMission from '../../image/sea mission.png'
 import myskill from '../../image/programming.jpg'
-import { useEffect, useState, useRef} from "react";
 
 function FadeInSection(props) {
     const [isVisible, setVisible] = React.useState(false);
@@ -52,7 +51,7 @@ function About(props) {
                                         technology services</p>
                                 </div>
                                 <div className="img_frame">
-                                <img src={profile_pic} className="profilePic"></img>
+                                <img src={profile_pic} className="profilePic" alt="profile"></img>
                             </div>
                             </div>  
                         </div>
@@ -78,7 +77,7 @@ function About(props) {
                                         self taught skills as required</p>
                             </div>
                             <div className="img_frame">
-                                <img src={gmm} className="profilePic"></img>
+                                <img src={gmm} className="profilePic" alt="gmm logo"></img>
                             </div>
                         </div>
                     </FadeInSection>
@@ -93,7 +92,7 @@ function About(props) {
                                 <p>ㅇ Able to prioritize work and can quickly adapt to ad-hoc requests</p>
                             </div>
                             <div className="img_frame">
-                                <img src={machi} className="profilePic"></img>
+                                <img src={machi} className="profilePic" alt="machi logo"></img>
                             </div>
                         </div>
                     </FadeInSection>
@@ -112,7 +111,7 @@ function About(props) {
                             </div>
                             
                             <div className="img_frame">
-                                <img src={seaMission} className="profilePic"></img>
+                                <img src={seaMission} className="profilePic" alt="SEA mission logo"></img>
                             </div>
                         </div>
                     </FadeInSection>
@@ -123,7 +122,7 @@ function About(props) {
                                 <p> I am programmable with C/C++, C#, Java, Python, JavaScript, Html,CSS, Swift, Objective C </p>
                             </div>
                             <div className="img_frame">
-                                <img src={myskill} className="seneca"></img>
+                                <img src={myskill} className="seneca" alt="programming logo"></img>
                             </div>
                         </div>
                     </FadeInSection>
@@ -135,7 +134,7 @@ function About(props) {
                                   Ontario College Advanced Diploma</p>
                             </div>
                             <div className="img_frame">
-                                <img src={seneca} className="seneca"></img>
+                                <img src={seneca} className="seneca" alt="seneca logo"></img>
                             </div>
                            
                         </div> 

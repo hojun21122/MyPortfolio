@@ -6,10 +6,9 @@ import AboutMe from './Component/AboutMe/aboutMe'
 import Footer from './Component/footer/footer';
 import Contact from './Component/ContactMe/contact'
 import MyPage from './Component/MyPage/mypage'
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import FetchData, { fetchData }  from './API/index';
-import { HashRouter , Link} from "react-router-dom";
+import { HashRouter} from "react-router-dom";
 
 function App(props) {
 

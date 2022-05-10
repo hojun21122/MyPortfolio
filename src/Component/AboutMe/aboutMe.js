@@ -1,6 +1,6 @@
-import React, {  useRef, Component, useEffect } from "react";
+import React from "react";
 import './aboutMe.css'
-import { Container, Fade } from "@material-ui/core";
+import { Container } from "@material-ui/core";
 import korea from '../../image/korea.png'
 import canada from '../../image/canada.jpg'
 import helloWorld from '../../image/helloWorld.mp4'
@@ -14,7 +14,7 @@ function AboutMe(props){
             <Container>
             <div className="journey">
                 <div className="korea">
-                    <img src={korea} className="korea-img"></img>
+                    <img src={korea} className="korea-img" alt="Korea"></img>
                 </div>
                 <div id="arrowAnim">
                         <div class="arrowSliding">
@@ -30,8 +30,8 @@ function AboutMe(props){
                             <div class="arrow"></div>
                         </div>
                     </div>
-                <div className="canada">
-                    <img src={canada} className="canada-img"></img>
+                <div className="Canada">
+                    <img src={canada} className="canada-img" alt="canada"></img>
                 </div>
             </div>
             <div className="first_para">

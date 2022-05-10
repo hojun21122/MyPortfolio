@@ -1,4 +1,4 @@
-import React, {  Component, useState } from "react";
+import React, {  useState } from "react";
 import './home.css'
 import { Container } from "@material-ui/core";
 import { useEffect, useRef} from "react";

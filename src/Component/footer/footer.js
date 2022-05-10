@@ -1,7 +1,6 @@
-import React, {  Component, useState } from "react";
+import React from "react";
 import './footer.css'
 import { Container } from "@material-ui/core";
-import { useEffect, useRef} from "react";
 
 /*
 <a>linkedin.com/in/hojunhwangHJ</a><br></br>

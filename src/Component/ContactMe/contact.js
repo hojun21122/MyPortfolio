@@ -1,7 +1,7 @@
-import React, {  Component, useState } from "react";
+import React from "react";
 import './contact.css'
 import { Container } from "@material-ui/core";
-import { useEffect, useRef} from "react";
+import { useRef} from "react";
 import emailjs from '@emailjs/browser';
 import doc from '../../image/doc.png'
 import linkedin from '../../image/linkedIn.png'
@@ -60,16 +60,24 @@ function Contact (props) {
                         </div>
                         
                         <div className="resumeBlock">
-                            <a href={resume}  className="resume" target="blank"><img src={doc} className="doc_icon"></img><br></br>Resume<br></br>  </a>
+                            <form action = {resume} target="blank">
+                                <button type="submit" className="contactbtn"><img src={doc} className="doc_icon" alt="resume"></img><br></br>Resume<br></br>  </button>
+                            </form>
                         </div>
                         <div className="resumeBlock">
-                            <a href="https://www.linkedin.com/in/hojunhwang1101/"  className="resume" target="blank"><img src={linkedin} className="doc_icon"></img><br></br>Linked in  <br></br></a>
+                            <form action = "https://www.linkedin.com/in/hojunhwang1101/" target="blank">
+                                <button type="submit" className="contactbtn"><img src={linkedin} className="doc_icon" alt="resume"></img><br></br>Linked in<br></br>  </button>
+                            </form>
                         </div>
                         <div className="resumeBlock">
-                            <a href="https://www.instagram.com/_hojun_h/"  className="resume" target="blank"><img src={insta} className="doc_icon"></img><br></br>Instagram  <br></br></a>
+                            <form action = "https://www.instagram.com/_hojun_h/" target="blank">
+                                <button type="submit" className="contactbtn"><img src={insta} className="doc_icon" alt="resume"></img><br></br>Instagram<br></br>  </button>
+                            </form>
                         </div>
                         <div className="resumeBlock">
-                            <a href="https://www.facebook.com/Hojun211/"  className="resume" target="blank"><img src={facebook} className="doc_icon"></img><br></br>facebook <br></br> </a>
+                            <form action = "https://www.instagram.com/_hojun_h/" target="blank">
+                                <button type="submit" className="contactbtn"><img src={facebook} className="doc_icon" alt="resume"></img><br></br>facebook<br></br>  </button>
+                            </form>
                         </div>
                     </div>
                 </div>

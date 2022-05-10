@@ -1,8 +1,7 @@
-import React, { Component } from 'react'
+import React from 'react'
 import styles from './header.module.css'
 import logo from '../../image/logo_backgroundless.png'
 import { Container } from '@material-ui/core'
-import Grid from '@mui/material/Grid';
 import { HashRouter, Link} from "react-router-dom";
 
 function Header(props){  

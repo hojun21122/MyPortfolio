@@ -92,7 +92,7 @@ input[type="submit" i]:hover{
     filter: invert();
 }
 
-.resumeBlock:hover .resume{
+.resumeBlock:hover .contactbtn{
     color:white;
 }
 
@@ -131,6 +131,11 @@ input[type="submit" i]:hover{
     margin-left: 2.5vw;
     line-height: 1.5vw;
     margin-bottom: 3vw;
+}
+.contactbtn{
+    background-color: transparent;
+    border: 0;    
+    cursor: pointer;
 }
 @keyframes fade-in {
     from {opacity: 0.7;}

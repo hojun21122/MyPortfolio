@@ -1,7 +1,6 @@
-import React, {  Component, useState } from "react";
+import React from "react";
 import './mypage.css'
 import { Container } from "@material-ui/core";
-import { useEffect, useRef} from "react";
 import ready from '../../image/ready.mp4'
 
 

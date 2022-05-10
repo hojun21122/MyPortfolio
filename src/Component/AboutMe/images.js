@@ -15,7 +15,7 @@ import img15 from '../../image/gallery/IMG_9230.webp'
 import img16 from '../../image/gallery/IMG_9261.webp'
 import img17 from '../../image/gallery/IMG_9276.webp'
 
-export default [
+const images = [
     {
       original: img1,
       thumbnail: img1
@@ -81,3 +81,5 @@ export default [
       thumbnail: img3
     }
   ];
+
+  export default images;
