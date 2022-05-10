@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/MyPortfolio/static/css/main.a40f0417.chunk.css",
-    "main.js": "/MyPortfolio/static/js/main.4662f176.chunk.js",
-    "main.js.map": "/MyPortfolio/static/js/main.4662f176.chunk.js.map",
+    "main.js": "/MyPortfolio/static/js/main.96d62517.chunk.js",
+    "main.js.map": "/MyPortfolio/static/js/main.96d62517.chunk.js.map",
     "runtime-main.js": "/MyPortfolio/static/js/runtime-main.f0eb83eb.js",
     "runtime-main.js.map": "/MyPortfolio/static/js/runtime-main.f0eb83eb.js.map",
     "static/css/2.6cd54866.chunk.css": "/MyPortfolio/static/css/2.6cd54866.chunk.css",
@@ -14,7 +14,7 @@
     "static/css/2.6cd54866.chunk.css.map": "/MyPortfolio/static/css/2.6cd54866.chunk.css.map",
     "static/css/main.a40f0417.chunk.css.map": "/MyPortfolio/static/css/main.a40f0417.chunk.css.map",
     "static/js/2.de4ef81a.chunk.js.LICENSE.txt": "/MyPortfolio/static/js/2.de4ef81a.chunk.js.LICENSE.txt",
-    "static/media/HoJunHwang2022.4db0eb82.pdf": "/MyPortfolio/static/media/HoJunHwang2022.4db0eb82.pdf",
+    "static/media/HoJunHwang2022.2647ca6c.pdf": "/MyPortfolio/static/media/HoJunHwang2022.2647ca6c.pdf",
     "static/media/IMG_8521.b0eb9953.webp": "/MyPortfolio/static/media/IMG_8521.b0eb9953.webp",
     "static/media/IMG_8546.02d33e06.webp": "/MyPortfolio/static/media/IMG_8546.02d33e06.webp",
     "static/media/IMG_8553.e48f800d.webp": "/MyPortfolio/static/media/IMG_8553.e48f800d.webp",
@@ -50,6 +50,6 @@
     "static/css/2.6cd54866.chunk.css",
     "static/js/2.de4ef81a.chunk.js",
     "static/css/main.a40f0417.chunk.css",
-    "static/js/main.4662f176.chunk.js"
+    "static/js/main.96d62517.chunk.js"
   ]
 }
