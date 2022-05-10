@@ -1,20 +1,19 @@
-import img1 from '../../image/gallery/IMG_8521.jpg'
-import img2 from '../../image/gallery/IMG_8546.jpg'
-import img3 from '../../image/gallery/IMG_8553.jpg'
-import img4 from '../../image/gallery/IMG_8585.jpg'
-import img5 from '../../image/gallery/IMG_8599-2.jpg'
-import img6 from '../../image/gallery/IMG_8608-2.jpg'
-import img7 from '../../image/gallery/IMG_8631.jpg'
-import img8 from '../../image/gallery/IMG_8643-2.jpg'
-import img9 from '../../image/gallery/IMG_8786.jpg'
-import img10 from '../../image/gallery/IMG_8791.jpg'
-import img11 from '../../image/gallery/IMG_8802.jpg'
-import img12 from '../../image/gallery/IMG_8811.jpg'
-import img13 from '../../image/gallery/IMG_8825.jpg'
-import img14 from '../../image/gallery/IMG_8838.jpg'
-import img15 from '../../image/gallery/IMG_9230.jpg'
-import img16 from '../../image/gallery/IMG_9261.jpg'
-import img17 from '../../image/gallery/IMG_9276.jpg'
+import img1 from '../../image/gallery/IMG_8521.webp'
+import img2 from '../../image/gallery/IMG_8546.webp'
+import img3 from '../../image/gallery/IMG_8553.webp'
+import img4 from '../../image/gallery/IMG_8585.webp'
+import img6 from '../../image/gallery/IMG_8608-2.webp'
+import img7 from '../../image/gallery/IMG_8631.webp'
+import img8 from '../../image/gallery/IMG_8643-2.webp'
+import img9 from '../../image/gallery/IMG_8786.webp'
+import img10 from '../../image/gallery/IMG_8791.webp'
+import img11 from '../../image/gallery/IMG_8802.webp'
+import img12 from '../../image/gallery/IMG_8811.webp'
+import img13 from '../../image/gallery/IMG_8825.webp'
+import img14 from '../../image/gallery/IMG_8838.webp'
+import img15 from '../../image/gallery/IMG_9230.webp'
+import img16 from '../../image/gallery/IMG_9261.webp'
+import img17 from '../../image/gallery/IMG_9276.webp'
 
 export default [
     {
@@ -28,10 +27,6 @@ export default [
     {
         original: img4,
         thumbnail: img4
-      },
-      {
-        original: img5,
-        thumbnail: img5
       },
       {
         original: img6,

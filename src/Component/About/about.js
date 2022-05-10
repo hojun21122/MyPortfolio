@@ -132,7 +132,7 @@ function About(props) {
                             <div className="info"> 
                                 <h1>Education</h1>
                                 <p>Seneca College Computer Programming & Analysis (CPA)<br></br>
-                                  Candidate for Ontario College Advanced Diploma in August 2022</p>
+                                  Candidate for Ontario College Advanced Diploma</p>
                             </div>
                             <div className="img_frame">
                                 <img src={seneca} className="seneca"></img>

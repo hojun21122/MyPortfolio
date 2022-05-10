@@ -13,14 +13,17 @@ import { useEffect, useRef} from "react";
 
 
 function Footer (props) {
-        return (    
-            <Container fixed>
+        return (   
+            <div className="footerArea">
+                 <Container fixed>
                
-                 <div className="footer">
-                        This page is made by Ho Jun Hwang <br></br>
-                        Thank you for visiting                        
-                 </div>
-            </Container>
+               <div className="footer">
+                      This page is made by Ho Jun Hwang <br></br>
+                      Thank you for visiting                        
+               </div>
+          </Container>
+            </div> 
+           
                             
         );
 }
