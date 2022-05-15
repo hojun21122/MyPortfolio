@@ -1,48 +1,447 @@
-.announce {
-  background-color: rgb(255, 255, 255);
-  padding-bottom: 0px;
+@media only screen and (min-width: 300px) and (max-width: 468px){
+  .menu{
+    visibility: visible;
+    display: block;
+    vertical-align: center;
+    text-align: center;
+  }
+  .menu button{
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    background-color: white;
+    border: white;
+    color: black;
+  }
+  .menu button:hover{
+    background-color: rgba(0, 0, 0, 0.822);
+  }
+  .menu button:checked + button:focus{
+    background-color: rgba(0, 0, 0, 0.822);
+  }
+  .mitem{
+    text-decoration: none;
+    color: black;
+  }
+  .announce {
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 0px;
+  }
+  .navbar {
+    
+    transform: translatey(-150%);
+    visibility: hidden;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: hsla(0, 0%, 100%, 0.178);
+    color: bisque;
+    text-align: center;
+  }
+  .logo {
+    width: 4vw;
+    margin: 0px;
+    padding: 0px;
+  }
+  .navbar_logo a {
+    float: left;
+    width: 8px;
+    margin-left: 10px;
+  }
+  .navbar_logo a img {
+    float: left;
+    width: 3vw;
+    margin-left: 10px;
+  }
+  .navbar_menu {
+    list-style-type: none;
+    margin-top: 0;
+    padding: 0;
+    margin-bottom: 0;
+    
+    margin-bottom: 0;
+  }
+  .navbar_menu li {
+    display: inline-block;
+    text-align: center;
+    margin: 5px;
+    font-size: 1px;
+  }
+  .navbar_menu li a {
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 1px;
+    letter-spacing: 0.5px;
+    -webkit-text-stroke: 0.2px rgb(0, 0, 0);
+  }
+
 }
-.navbar {
-  list-style-type: none;
-  overflow: hidden;
-  background-color: hsla(0, 0%, 100%, 0.178);
-  color: bisque;
-  text-align: center;
+@media only screen and (min-width: 468px) and (max-width: 600px){
+  .menu{
+    visibility: hidden;
+    transform: translateX(-50%);
+    display: block;
+  }
+  .announce {
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 0px;
+  }
+  .navbar {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: hsla(0, 0%, 100%, 0.178);
+    color: bisque;
+    text-align: center;
+    
+    transform: translatey(-20%);
+  }
+  .logo {
+    width: 4vw;
+    margin: 0px;
+    padding: 0px;
+  }
+  .navbar_logo a {
+    float: left;
+    width: 8px;
+    margin-left: 10px;
+  }
+  .navbar_logo a img {
+    float: left;
+    width: 3vw;
+    margin-left: 10px;
+  }
+  .navbar_menu {
+    list-style-type: none;
+    margin-top: 0;
+    padding: 0;
+    margin-bottom: 0;
+    
+    margin-bottom: 0;
+  }
+  .navbar_menu li {
+    display: inline-block;
+    text-align: center;
+    margin: 15px;
+  }
+  .navbar_menu li a {
+    letter-spacing: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 1vw;
+    letter-spacing: 0.5px;
+    -webkit-text-stroke: 0.2px rgb(0, 0, 0);
+  }
+
 }
-.logo {
-  width: 3vw;
-  margin: 0px;
-  padding: 0px;
+@media only screen and (min-width: 600px) and (max-width: 768px){
+  .menu{
+    visibility: hidden;
+    transform: translateX(-50%);
+    display: block;
+  }
+  .announce {
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 0px;
+  }
+  .navbar {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: hsla(0, 0%, 100%, 0.178);
+    color: bisque;
+    
+    transform: translatey(-20%);
+    text-align: center;
+  }
+  .logo {
+    width: 2.5vw;
+    margin: 0px;
+    padding: 0px;
+  }
+  .navbar_logo a {
+    float: left;
+    width: 8px;
+    margin-left: 30px;
+  }
+  .navbar_logo a img {
+    float: left;
+    width: 3vw;
+    margin-left: 30px;
+  }
+  .navbar_menu {
+    list-style-type: none;
+    margin-top: 0;
+    padding: 0;
+    
+    margin-bottom: 0;
+  }
+  .navbar_menu li {
+    display: inline-block;
+    text-align: center;
+    margin: 15px;
+  }
+  .navbar_menu li a {
+    letter-spacing: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 1vw;
+    letter-spacing: 0.5px;
+    -webkit-text-stroke: 0.2px rgb(0, 0, 0);
+  }
+
 }
-.navbar_logo a {
-  float: left;
-  width: 8px;
-  margin-left: 30px;
+@media only screen and (min-width: 768px) and (max-width: 960px){
+  .menu{
+    visibility: hidden;
+    transform: translateX(-50%);
+    display: block;
+  }
+  .announce {
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 0px;
+  }
+  .navbar {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: hsla(0, 0%, 100%, 0.178);
+    color: bisque;
+    text-align: center;
+    
+    transform: translatey(-20%);
+  }
+  .logo {
+    width: 2.5vw;
+    margin: 0px;
+    padding: 0px;
+  }
+  .navbar_logo a {
+    float: left;
+    width: 8px;
+    margin-left: 30px;
+  }
+  .navbar_logo a img {
+    float: left;
+    width: 3vw;
+    margin-left: 30px;
+  }
+  .navbar_menu {
+    list-style-type: none;
+    margin-top: 0;
+    padding: 0;
+    
+    margin-bottom: 0;
+  }
+  .navbar_menu li {
+    display: inline-block;
+    text-align: center;
+    margin: 15px;
+  }
+  .navbar_menu li a {
+    letter-spacing: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 1vw;
+    letter-spacing: 0.5px;
+    -webkit-text-stroke: 0.2px rgb(0, 0, 0);
+  }
+
 }
-.navbar_logo a img {
-  float: left;
-  width: 3vw;
-  margin-left: 30px;
+
+@media only screen and (min-width: 960px) and (max-width: 1280px){
+  .menu{
+    visibility: hidden;
+    transform: translateX(-50%);
+    display: block;
+  }
+  .announce {
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 0px;
+  }
+  .navbar {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: hsla(0, 0%, 100%, 0.178);
+    color: bisque;
+    text-align: center;
+    transform: translatey(-20%);
+  }
+  .logo {
+    width: 3vw;
+    margin: 0px;
+    padding: 0px;
+  }
+  .navbar_logo a {
+    float: left;
+    width: 8px;
+    margin-left: 30px;
+  }
+  .navbar_logo a img {
+    float: left;
+    width: 3vw;
+    margin-left: 30px;
+  }
+  .navbar_menu {
+    list-style-type: none;
+    margin-top: 0;
+    padding: 0;
+    
+    margin-bottom: 0;
+  }
+  .navbar_menu li {
+    display: inline-block;
+    text-align: center;
+    margin: 15px;
+  }
+  .navbar_menu li a {
+    letter-spacing: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 0.9vw;
+    letter-spacing: 1px;
+    -webkit-text-stroke: 0.2px rgb(0, 0, 0);
+  }
+
 }
-.navbar_menu {
-  list-style-type: none;
-  margin-top: 0;
+
+@media only screen and (min-width: 1280px) and (max-width: 1980px){
+  .menu{
+    visibility: hidden;
+    transform: translateX(-50%);
+    display: block;
+  }
+  .announce {
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 0px;
+  }
+  .navbar {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: hsla(0, 0%, 100%, 0.178);
+    color: bisque;
+    text-align: center;
+    transform: translatey(-20%);
+  }
+  .logo {
+    width: 3vw;
+    margin: 0px;
+    padding: 0px;
+  }
+  .navbar_logo a {
+    float: left;
+    width: 8px;
+    margin-left: 30px;
+  }
+  .navbar_logo a img {
+    float: left;
+    width: 3vw;
+    margin-left: 30px;
+  }
+  .navbar_menu {
+    list-style-type: none;
+    margin-top: 0;
+    padding:0;
+    margin-bottom: 0;
+  }
+  .navbar_menu li {
+    display: inline-block;
+    text-align: center;
+    margin: 15px;
+  }
+  .navbar_menu li a {
+    letter-spacing: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 0.9vw;
+    letter-spacing: 1px;
+    -webkit-text-stroke: 0.2px rgb(0, 0, 0);
+  }
+
 }
-.navbar_menu li {
-  display: inline-block;
-  text-align: center;
-  margin: 15px;
-}
-.navbar_menu li a {
-  letter-spacing: 3px;
-  padding-left: 10px;
-  padding-right: 10px;
-  text-align: center;
-  text-decoration: none;
-  color: rgb(0, 0, 0);
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-size: 0.9vw;
-  letter-spacing: 1px;
-  -webkit-text-stroke: 0.2px rgb(0, 0, 0);
+@media only screen and (min-width: 1980px) and (max-width: 3120px){
+  .menu{
+    visibility: hidden;
+    transform: translateX(-50%);
+    display: block;
+  }
+  .announce {
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 0px;
+    height: 100px;
+  }
+  .navbar {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: hsla(0, 0%, 100%, 0.178);
+    color: bisque;
+    text-align: center;
+    transform: translatey(-20%);
+  }
+  .logo {
+    width: 2.2vw;
+    margin: 0px;
+    padding: 0px;
+  }
+  .navbar_logo a {
+    float: left;
+    width: 5px;
+    margin-left: 30px;
+  }
+  .navbar_logo a img {
+    float: left;
+    width: 2vw;
+    margin-left: 30px;
+  }
+  .navbar_menu {
+    list-style-type: none;
+    margin-top: 0;
+    padding:0;
+    
+    margin-bottom: 0;
+  }
+  .navbar_menu li {
+    display: inline-block;
+    text-align: center;
+    margin: 15px;
+  }
+  .navbar_menu li a {
+    letter-spacing: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 0.7vw;
+    letter-spacing: 1px;
+    -webkit-text-stroke: 0.2px rgb(0, 0, 0);
+  }
+
 }

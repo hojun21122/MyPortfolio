@@ -25,11 +25,9 @@ function Home (props) {
             <div>
                     <Container fixed>
                  <div className="main2">
-                        <div classname='main2-txt'>
+                        <div className='main2-txt'>
                                 <h2 className={`main-header ${isVisible ? 'is-visible' : ''}`}>Welcome to the world <br /> that I've created</h2>
-                                <Container className={`subtitle ${isVisible ? 'is-visible' : ''}`} ref={containerRef}>
-                                    <a>This is HoJun's portfolio page</a>
-                                </Container>
+                                    <p className={`subtitle ${isVisible ? 'is-visible' : ''}`} ref={containerRef}>This is HoJun's portfolio page</p>
                         </div>
                  </div>
             </Container>
