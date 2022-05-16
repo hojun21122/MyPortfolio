@@ -61,22 +61,22 @@ function Contact (props) {
                         
                         <div className="resumeBlock">
                             <form action = {resume} target="blank">
-                                <button type="submit" className="contactbtn"><img src={doc} className="doc_icon" alt="resume"></img><br></br>Resume<br></br>  </button>
+                                <button type="submit" className="contactbtn"><img src={doc} className="doc_icon" alt="resume"></img><br></br><br></br>Resume<br></br>  </button>
                             </form>
                         </div>
                         <div className="resumeBlock">
                             <form action = "https://www.linkedin.com/in/hojunhwang1101/" target="blank">
-                                <button type="submit" className="contactbtn"><img src={linkedin} className="doc_icon" alt="resume"></img><br></br>Linked in<br></br>  </button>
+                                <button type="submit" className="contactbtn"><img src={linkedin} className="doc_icon" alt="resume"></img><br></br><br></br>Linked in<br></br>  </button>
                             </form>
                         </div>
                         <div className="resumeBlock">
                             <form action = "https://www.instagram.com/_hojun_h/" target="blank">
-                                <button type="submit" className="contactbtn"><img src={insta} className="doc_icon" alt="resume"></img><br></br>Instagram<br></br>  </button>
+                                <button type="submit" className="contactbtn"><img src={insta} className="doc_icon" alt="resume"></img><br></br><br></br>Instagram<br></br>  </button>
                             </form>
                         </div>
                         <div className="resumeBlock">
                             <form action = "https://www.instagram.com/_hojun_h/" target="blank">
-                                <button type="submit" className="contactbtn"><img src={facebook} className="doc_icon" alt="resume"></img><br></br>facebook<br></br>  </button>
+                                <button type="submit" className="contactbtn"><img src={facebook} className="doc_icon" alt="resume"></img><br></br><br></br>facebook<br></br>  </button>
                             </form>
                         </div>
                     </div>

@@ -442,7 +442,7 @@
       Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     font-weight: 300;
     font-size: 23px;
-    animation: fade-in 2s;
+    animation: fade-in 3s;
   }
 
   body .subtitle.is-visible{
