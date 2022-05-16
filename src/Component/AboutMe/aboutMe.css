@@ -3,7 +3,7 @@
     margin-bottom: 2vw;
   }
   #arrowAnim {
-    padding-top: 3vw;
+    padding-top: 6vw;
       width: 30vw;
       height: 20vh;
       justify-content: center;
@@ -53,8 +53,8 @@
     @keyframes slide {
         0% { opacity:0; transform: translateX(0vw); }	
        20% { opacity:1; transform: translateX(4vw); }	
-       80% { opacity:1; transform: translateX(8vw); }	
-      100% { opacity:0; transform: translateX(12vw); }	
+       80% { opacity:1; transform: translateX(14vw); }	
+      100% { opacity:0; transform: translateX(17vw); }	
     }
   
     .journey{
@@ -119,7 +119,7 @@
   
     .video-container {
       width: 100%;
-      height: 25vw;
+      height: 45vw;
       object-fit: cover;
     object-position: bottom;
       position: relative;
@@ -132,6 +132,9 @@
     position: absolute;
     object-fit: cover;
     z-index: 0;
+  }
+  .captionbox{
+    transform: translateY(-10%);
   }
   .caption{
     font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
@@ -148,7 +151,10 @@
     
   }
   .caption h1{
-    font-size: 4vw;
+    font-size: 2vw;
+  }
+  .caption p{
+    font-size: 1px;
   }
   .interest{
     font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
@@ -212,7 +218,7 @@
     margin-bottom: 2vw;
   }
   #arrowAnim {
-    padding-top: 3vw;
+    padding-top: 6vw;
       width: 30vw;
       height: 20vh;
       justify-content: center;
@@ -262,8 +268,8 @@
     @keyframes slide {
         0% { opacity:0; transform: translateX(0vw); }	
        20% { opacity:1; transform: translateX(4vw); }	
-       80% { opacity:1; transform: translateX(8vw); }	
-      100% { opacity:0; transform: translateX(12vw); }	
+       80% { opacity:1; transform: translateX(13vw); }	
+      100% { opacity:0; transform: translateX(16vw); }	
     }
   
     .journey{
@@ -422,7 +428,7 @@
     margin-bottom: 2vw;
   }
   #arrowAnim {
-    padding-top: 3vw;
+    padding-top: 6vw;
       width: 30vw;
       height: 20vh;
       justify-content: center;
@@ -472,8 +478,8 @@
     @keyframes slide {
         0% { opacity:0; transform: translateX(0vw); }	
        20% { opacity:1; transform: translateX(4vw); }	
-       80% { opacity:1; transform: translateX(8vw); }	
-      100% { opacity:0; transform: translateX(12vw); }	
+       80% { opacity:1; transform: translateX(12vw); }	
+      100% { opacity:0; transform: translateX(16vw); }	
     }
   
     .journey{
@@ -632,7 +638,7 @@
     margin-bottom: 2vw;
   }
   #arrowAnim {
-    padding-top: 3vw;
+    padding-top: 6vw;
       width: 30vw;
       height: 20vh;
       justify-content: center;
@@ -682,8 +688,8 @@
     @keyframes slide {
         0% { opacity:0; transform: translateX(0vw); }	
        20% { opacity:1; transform: translateX(4vw); }	
-       80% { opacity:1; transform: translateX(8vw); }	
-      100% { opacity:0; transform: translateX(12vw); }	
+       80% { opacity:1; transform: translateX(13vw); }	
+      100% { opacity:0; transform: translateX(16vw); }	
     }
   
     .journey{
@@ -832,7 +838,7 @@
   margin-bottom: 2vw;
 }
 #arrowAnim {
-  padding-top: 3vw;
+  padding-top: 5vw;
     width: 30vw;
     height: 20vh;
     justify-content: center;
@@ -881,9 +887,9 @@
   }
   @keyframes slide {
       0% { opacity:0; transform: translateX(0vw); }	
-     20% { opacity:1; transform: translateX(4vw); }	
-     80% { opacity:1; transform: translateX(8vw); }	
-    100% { opacity:0; transform: translateX(12vw); }	
+     20% { opacity:1; transform: translateX(8vw); }	
+     80% { opacity:1; transform: translateX(14vw); }	
+    100% { opacity:0; transform: translateX(16vw); }	
   }
 
   .journey{
@@ -1078,13 +1084,13 @@
         0% { opacity:0; transform: translateX(0vw); }	
        20% { opacity:1; transform: translateX(4vw); }	
        80% { opacity:1; transform: translateX(8vw); }	
-      100% { opacity:0; transform: translateX(12vw); }	
+      100% { opacity:0; transform: translateX(10vw); }	
     }
     @keyframes slide {
-        0% { opacity:0; transform: translateX(0vw); }	
-       20% { opacity:1; transform: translateX(4vw); }	
-       80% { opacity:1; transform: translateX(8vw); }	
-      100% { opacity:0; transform: translateX(12vw); }	
+        0% { opacity:0; transform: translateX(2vw); }	
+       20% { opacity:1; transform: translateX(6vw); }	
+       80% { opacity:1; transform: translateX(9vw); }	
+      100% { opacity:0; transform: translateX(10vw); }	
     }
   
     .journey{

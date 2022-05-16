@@ -44,7 +44,7 @@ function AboutMe(props){
                 <source src={helloWorld}></source>
             </video>
             <Container className="caption">
-                <div>
+                <div className="captionbox">
                     <h1>I am programmer!</h1>
                         <p><br></br>studied in Seneca College with Computer Programming and Analysist(CPA) program.<br></br>
                     And I am a person who loves challenges and problem solving </p>
