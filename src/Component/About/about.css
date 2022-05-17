@@ -16,12 +16,12 @@
   .img_frame{
     position: inline-block;
     top: 50%;
-    transform: translateX(140%);
+    transform: translateX(180%);
     text-align: center;
     vertical-align: center;
     align-items: center;
-    width: 25vw;
-    height: 25vw;
+    width: 20vw;
+    height: 20vw;
   }
   .profilePic {
     transform: translateY(20%);
@@ -47,12 +47,12 @@
     padding-top: 2vw;
     padding-left: 14vw;
     font-weight: 600;
-    font-size: 2vw;
+    font-size: 5vw;
   }
   .info p{
     padding-left: 13vw;
     
-    font-size: 0.8vw;
+    font-size: 3vw;
     padding-right: 5vw;
   }
   .info h2{
@@ -95,21 +95,23 @@
     display: grid;
     padding-top: 3vw;
     margin-top: 0;
-    grid-template-columns: 6fr 4fr;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   }
   .img_frame{
-    position: relative;
+    position: inline-block;
     top: 50%;
-    transform: translateY(-50%);
-    width: 17vw;
-    height: 17vw;
+    transform: translateX(180%);
+    text-align: center;
+    vertical-align: center;
+    align-items: center;
+    width: 20vw;
+    height: 20vw;
   }
   .profilePic {
     transform: translateY(20%);
     display:inline-block;
-    height: 80%;
+    height: 100%;
     vertical-align: middle;
   }
   .about-fade-in{
@@ -128,30 +130,30 @@
   }
   .info h1{
     padding-top: 2vw;
-    padding-left: 14vw;
+    padding-left: 10vw;
     font-weight: 600;
-    font-size: 2vw;
+    font-size: 6vw;
   }
   .info p{
-    padding-left: 13vw;
+    padding-left: 10vw;
     
-    font-size: 0.8vw;
+    font-size: 4vw;
     padding-right: 5vw;
   }
   .info h2{
     padding-left: 14vw;
     font-weight: 600;
-    font-size: 1.5vw;
+    font-size: 5vw;
   }
   .info h3{
     padding-left: 15vw;
     font-weight: 600;
-    font-size: 1vw;
+    font-size: 3vw;
   }
   .info a{
     padding-left: 15vw;
     padding-right: 5vw;
-    font-size: 1vw;
+    font-size: 3vw;
   }
   .link{
     text-decoration: none;
