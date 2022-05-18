@@ -3,6 +3,7 @@ import './mypage.css'
 import { Container } from "@material-ui/core";
 import ready from '../../image/ready.mp4'
 
+import wordle from '../../image/wordle.webp'
 
 /*
 <a>linkedin.com/in/hojunhwangHJ</a><br></br>
@@ -16,17 +17,13 @@ import ready from '../../image/ready.mp4'
 function MyPage (props) {
         return (    
             <Container fixed>
-               
-               <div className="video-container_myp">
-                    <video autoPlay muted loop>
-                        <source src={ready}></source>
-                    </video>
-                    <Container className="caption_myp">
-                        <div>
-                            <p className="para"><br></br>Content will be available soon </p>
-                        </div>
-                    </Container>
-                </div>
+                <p className="proj_intro">This is where you can travel my projects!<br></br> Please Enjoy my works😄</p>
+                        <div className="proj_block">
+                                <form action = "https://hojun21122.github.io/HJwordle/" target="blank" className="proj_form">
+                                    <button type="submit" className="projbtn"><img src={wordle} className="proj_icon" alt="project"></img><br></br>Wordle Game<br></br>  </button>
+                                </form>
+                                
+                            </div>
             </Container>
                             
         );
