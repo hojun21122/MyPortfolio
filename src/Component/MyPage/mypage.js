@@ -1,8 +1,7 @@
 import React from "react";
 import './mypage.css'
 import { Container } from "@material-ui/core";
-import ready from '../../image/ready.mp4'
-
+import weather from "../../image/weather.webp"
 import wordle from '../../image/wordle.webp'
 
 /*
@@ -21,6 +20,9 @@ function MyPage (props) {
                         <div className="proj_block">
                                 <form action = "https://hojun21122.github.io/HJwordle/" target="blank" className="proj_form">
                                     <button type="submit" className="projbtn"><img src={wordle} className="proj_icon" alt="project"></img><br></br>Wordle Game<br></br>  </button>
+                                </form>
+                                <form action = "https://hojun21122.github.io/WeatherAPI/" target="blank" className="proj_form">
+                                    <button type="submit" className="projbtn"><img src={weather} className="proj_icon" alt="project"></img><br></br>WeatherAPI app<br></br>  </button>
                                 </form>
                                 
                             </div>

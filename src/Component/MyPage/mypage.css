@@ -19,7 +19,7 @@
   Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-weight: 400;
   border-radius: 5%;
-  font-size: 1vw;
+  font-size: 0.9vw;
 }
 .projbtn:hover{
   transition: ease-in 0.1s;
@@ -38,7 +38,7 @@
   justify-content: center;
 }
 .proj_intro{
-  font-size: 1.5vw;
+  font-size: 1.3vw;
   text-align: center;
   margin-bottom: 1.5vw;
 }
