@@ -1,495 +1,238 @@
-@media only screen and (min-width: 300px) and (max-width: 468px){
-  .div_background {
-    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.909), rgba(16, 11, 24, 0.829), rgba(19, 19, 29, 0.918));
-    color: white;
-    scroll-behavior: smooth;
-    padding-bottom: 5vw;
-  }
+*{
+  font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.about_background  {
+  text-align: center;
+  margin-top: 3vw;
+  width: 100%;
+  background-color: #ebebeb;
+  overflow: hidden;
+  background-size: cover;
+}
+
+.about_field{
+  display: flex;
+  text-align: center;
+}
+.about_field .left_field{
+  text-align: right;
+  background: transparent;
+}
+.about_field .right_field{
+  text-align: left;
   
-  .home_background {
-    display: grid;
-    padding-top: 3vw;
-    margin-top: 0;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  }
-  .img_frame{
-    position: inline-block;
-    top: 50%;
-    transform: translateX(180%);
-    text-align: center;
-    vertical-align: center;
-    align-items: center;
-    width: 20vw;
-    height: 20vw;
-  }
-  .profilePic {
-    transform: translateY(20%);
-    display:inline-block;
-    height: 100%;
-    vertical-align: middle;
-  }
-  .about-fade-in{
-    opacity: 0;
-    transform: translateY(7vw);
-    visibility: hidden;
-    transition: opacity 0.6s ease-out, transform 0.8s ease-out;
-    will-change: opacity, visibility;
-  }
+  background: transparent;
+}
+
+.about_field .left_field .card_section_left{
+  display: inline-block;
+  background-color: #faf8f6fb;
+  border-radius: 5%;
+  color: #1D1C1A;
+  text-align: center;
+  height: 25vw;
+  width: 18vw;
+  margin: 2vw;
+  padding: 1vw;
+  box-shadow:0.3vw 0.3vw 0.5vw rgba(0, 0, 0, 0.203);
+}
+.about_field .left_field .card_section_left2{
   
+  border-radius: 5%;
+  display: inline-block;
+  background-color: #faf8f6fb;
+  color: #1D1C1A;
+  text-align: center;
+  height: 25vw;
+  width: 18vw;
+  margin: 2vw;
+  padding: 1vw;
+  box-shadow:0.3vw 0.3vw 0.5vw rgba(0, 0, 0, 0.203);
+}
+
+.about_field .left_field .card_section_left3{
   
-  .about-fade-in.is-visible{
-    opacity: 1;
-    transform: none;
-    visibility: visible;
+  border-radius: 5%;
+  display: inline-block;
+  background-color: #faf8f6fb;
+  color: #1D1C1A;
+  text-align: center;
+  height: 25vw;
+  width: 18vw;
+  margin: 2vw;
+  padding: 1vw;
+  box-shadow:0.3vw 0.3vw 0.5vw rgba(0, 0, 0, 0.203);
+}
+
+.card_section_left:hover{
+  transform: scale(1.1);
+  transition: 1s ease;
+}
+.card_section_left2:hover{
+  animation: heart-beat 2s;
+  animation-iteration-count: inherit ;
+  transition: 5s ease;
+}
+.card_section_left3:hover{
+  animation: turning 4s;
+  animation-iteration-count: inherit ;
+  transition: 5s ease;
+}
+.about_field .left_field .card_section_left .info{
+  display: inline-block;
+  padding: 0.5vw;
+  font-size: 0.9vw;
+}
+.about_field .left_field .card_section_left2 .info{
+  display: inline-block;
+  padding: 0.5vw;
+  font-size: 0.9vw;
+}
+.about_field .left_field .card_section_left3 .info{
+  display: inline-block;
+  padding: 0.5vw;
+  font-size: 0.9vw;
+}
+.about_field .right_field .card_section_right{
+  
+  border-radius: 5%;
+  display: inline-block;
+  background-color: #faf8f6fb;
+  color: #1D1C1A;
+  text-align: center;
+  height: 25vw;
+  width: 18vw;
+  margin: 2vw;
+  padding: 1vw;
+  box-shadow:0.3vw 0.3vw 0.5vw rgba(0, 0, 0, 0.203);
+}
+.about_field .right_field .card_section_right2{
+  
+  border-radius: 5%;
+  display: inline-block;
+  background-color: #faf8f6fb;
+  color: #1D1C1A;
+  text-align: center;
+  height: 25vw;
+  width: 18vw;
+  margin: 2vw;
+  padding: 1vw;
+  box-shadow:0.3vw 0.3vw 0.5vw rgba(0, 0, 0, 0.203);
+}
+
+.card_section_right:hover{
+  animation: bounce 2s;
+  animation-iteration-count: inherit ;
+  transition: 5s ease;
+}
+
+.about_field .right_field .card_section_right .info{
+  display: inline-block;
+  padding: 1vw;
+  font-size: 0.9vw;
+}
+.about_field .right_field .card_section_right2 .info{
+  display: inline-block;
+  padding: 1vw;
+  font-size: 0.9vw;
+}
+
+.card_section_right2:hover{
+  animation: bounce2 2s;
+  animation-iteration-count:inherit ;
+  transition: 5s ease;
+}
+
+
+
+.img_frame{
+}
+.img_frame img{
+  width: 10vw;
+  padding-bottom: 0.5vw;
+}
+.img_frame .seneca{
+  width: 12vw;
+  padding-top: 1vw;
+}
+.img_frame .skills{
+  width: 13vw;
+  padding-top: 2vw;
+  padding-bottom: 1vw;
+}
+.info h1{
+  margin-top: 2vw;
+  font-size: 1.2vw;
+}
+.MuiContainer-root{
+  padding: 0;
+}
+
+@keyframes bounce {
+  0%{ transform: translateY(0);}
+  23%{ transform: translateY(-1vw);}
+  46%{ transform: translateY(0); }
+  75%{transform: translateY(-2vw);}
+  100%{ transform: translateY(0);}
+}
+
+@keyframes zoom-in-zoom-out {
+  0% {
+    transform: scale(1, 1);
   }
-  .info h1{
-    padding-top: 2vw;
-    padding-left: 14vw;
-    font-weight: 600;
-    font-size: 5vw;
+  65% {
+    transform: scale(1.1, 1.1);
   }
-  .info p{
-    padding-left: 13vw;
-    
-    font-size: 3vw;
-    padding-right: 5vw;
+  78% {
+    transform: scale(1, 1);
   }
-  .info h2{
-    padding-left: 14vw;
-    font-weight: 600;
-    font-size: 1.5vw;
+  90% {
+    transform: scale(1.1, 1.1);
   }
-  .info h3{
-    padding-left: 15vw;
-    font-weight: 600;
-    font-size: 1vw;
-  }
-  .info a{
-    padding-left: 15vw;
-    padding-right: 5vw;
-    font-size: 1vw;
-  }
-  .link{
-    text-decoration: none;
-    color: rgb(160, 160, 243);
-  }
-  .seneca{
-    display:inline-block;
-    transform: translateY(15%);
-    height: 70%;
-    vertical-align: middle;
-    aspect-ratio: 100%;
+  100% {
+    transform: scale(1, 1);
   }
 }
 
-@media only screen and (min-width: 468px) and (max-width: 600px){
-  .div_background {
-    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.909), rgba(16, 11, 24, 0.829), rgba(19, 19, 29, 0.918));
-    color: white;
-    scroll-behavior: smooth;
-    padding-bottom: 5vw;
+@keyframes heart-beat {
+  0% {
+    transform: scale(1, 1);
   }
-  
-  .home_background {
-    display: grid;
-    padding-top: 3vw;
-    margin-top: 0;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  25% {
+    transform: scale(1.05, 1.05);
   }
-  .img_frame{
-    position: inline-block;
-    top: 50%;
-    transform: translateX(180%);
-    text-align: center;
-    vertical-align: center;
-    align-items: center;
-    width: 20vw;
-    height: 20vw;
+  50% {
+    transform: scale(0.9, 0.9);
   }
-  .profilePic {
-    transform: translateY(20%);
-    display:inline-block;
-    height: 100%;
-    vertical-align: middle;
+  60% {
+    transform: scale(1.04, 1.04);
   }
-  .about-fade-in{
-    opacity: 0;
-    transform: translateY(7vw);
-    visibility: hidden;
-    transition: opacity 0.6s ease-out, transform 0.8s ease-out;
-    will-change: opacity, visibility;
+  70%{
+    transform: scale(0.95, 0.95);
   }
-  
-  
-  .about-fade-in.is-visible{
-    opacity: 1;
-    transform: none;
-    visibility: visible;
+  80%{
+    transform: scale(1.07, 1.07);
   }
-  .info h1{
-    padding-top: 2vw;
-    padding-left: 10vw;
-    font-weight: 600;
-    font-size: 6vw;
-  }
-  .info p{
-    padding-left: 10vw;
-    
-    font-size: 4vw;
-    padding-right: 5vw;
-  }
-  .info h2{
-    padding-left: 14vw;
-    font-weight: 600;
-    font-size: 5vw;
-  }
-  .info h3{
-    padding-left: 15vw;
-    font-weight: 600;
-    font-size: 3vw;
-  }
-  .info a{
-    padding-left: 15vw;
-    padding-right: 5vw;
-    font-size: 3vw;
-  }
-  .link{
-    text-decoration: none;
-    color: rgb(160, 160, 243);
-  }
-  .seneca{
-    display:inline-block;
-    transform: translateY(15%);
-    height: 70%;
-    vertical-align: middle;
-    aspect-ratio: 100%;
+  100% {
+    transform: scale(1, 1);
   }
 }
 
-@media only screen and (min-width: 600px) and (max-width: 960px){
-  .div_background {
-    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.909), rgba(16, 11, 24, 0.829), rgba(19, 19, 29, 0.918));
-    color: white;
-    scroll-behavior: smooth;
-    padding-bottom: 5vw;
-  }
-  
-  .home_background {
-    display: grid;
-    padding-top: 3vw;
-    margin-top: 0;
-    grid-template-columns: 6fr 4fr;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  }
-  .img_frame{
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 17vw;
-    height: 17vw;
-  }
-  .profilePic {
-    transform: translateY(20%);
-    display:inline-block;
-    height: 80%;
-    vertical-align: middle;
-  }
-  .about-fade-in{
-    opacity: 0;
-    transform: translateY(7vw);
-    visibility: hidden;
-    transition: opacity 0.6s ease-out, transform 0.8s ease-out;
-    will-change: opacity, visibility;
-  }
-  
-  
-  .about-fade-in.is-visible{
-    opacity: 1;
-    transform: none;
-    visibility: visible;
-  }
-  .info h1{
-    padding-top: 2vw;
-    padding-left: 14vw;
-    font-weight: 600;
-    font-size: 2.5vw;
-  }
-  .info p{
-    padding-left: 13vw;
-    
-    font-size: 1.3vw;
-    padding-right: 5vw;
-  }
-  .info h2{
-    padding-left: 14vw;
-    font-weight: 600;
-    font-size: 1.5vw;
-  }
-  .info h3{
-    padding-left: 15vw;
-    font-weight: 600;
-    font-size: 1vw;
-  }
-  .info a{
-    padding-left: 15vw;
-    padding-right: 5vw;
-    font-size: 1vw;
-  }
-  .link{
-    text-decoration: none;
-    color: rgb(160, 160, 243);
-  }
-  .seneca{
-    display:inline-block;
-    transform: translateY(15%);
-    height: 70%;
-    vertical-align: middle;
-    aspect-ratio: 100%;
-  }
+@keyframes bounce2 {
+  0%{ transform: translateY(0);}
+  23%{ transform:rotate(5deg) scale(1.05);}
+  46%{ transform: translateY(0);  
+    transform: translateX(0);}
+  75%{transform: translateY(1vw) rotate(-5deg);}
+  100%{ transform: translateY(0);}
 }
 
-@media only screen and (min-width: 960px) and (max-width: 1280px){
-  .div_background {
-    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.909), rgba(16, 11, 24, 0.829), rgba(19, 19, 29, 0.918));
-    color: white;
-    scroll-behavior: smooth;
-    padding-bottom: 5vw;
-  }
-  
-  .home_background {
-    display: grid;
-    padding-top: 3vw;
-    margin-top: 0;
-    grid-template-columns: 6fr 4fr;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  }
-  .img_frame{
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 17vw;
-    height: 17vw;
-  }
-  .profilePic {
-    transform: translateY(20%);
-    display:inline-block;
-    height: 80%;
-    vertical-align: middle;
-  }
-  .about-fade-in{
-    opacity: 0;
-    transform: translateY(7vw);
-    visibility: hidden;
-    transition: opacity 0.6s ease-out, transform 0.8s ease-out;
-    will-change: opacity, visibility;
-  }
-  
-  
-  .about-fade-in.is-visible{
-    opacity: 1;
-    transform: none;
-    visibility: visible;
-  }
-  .info h1{
-    padding-top: 2vw;
-    padding-left: 12vw;
-    font-weight: 600;
-    font-size: 2.5vw;
-  }
-  .info p{
-    padding-left: 13vw;
-    
-    font-size: 1.3vw;
-    padding-right: 5vw;
-  }
-  .info h2{
-    padding-left: 13vw;
-    font-weight: 600;
-    font-size: 1.5vw;
-  }
-  .info h3{
-    padding-left: 14vw;
-    font-weight: 600;
-    font-size: 1vw;
-  }
-  .info a{
-    padding-left: 12vw;
-    padding-right: 5vw;
-    font-size: 1vw;
-  }
-  .link{
-    text-decoration: none;
-    color: rgb(160, 160, 243);
-  }
-  .seneca{
-    display:inline-block;
-    transform: translateY(15%);
-    height: 70%;
-    vertical-align: middle;
-    aspect-ratio: 100%;
-  }
-}
-
-@media only screen and (min-width: 1280px) and (max-width: 1980px){
-  .div_background {
-    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.909), rgba(16, 11, 24, 0.829), rgba(19, 19, 29, 0.918));
-    color: white;
-    scroll-behavior: smooth;
-    padding-bottom: 5vw;
-  }
-  
-  .home_background {
-    display: grid;
-    padding-top: 3vw;
-    margin-top: 0;
-    grid-template-columns: 6fr 4fr;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  }
-  .img_frame{
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 17vw;
-    height: 17vw;
-  }
-  .profilePic {
-    transform: translateY(20%);
-    display:inline-block;
-    height: 80%;
-    vertical-align: middle;
-  }
-  .about-fade-in{
-    opacity: 0;
-    transform: translateY(7vw);
-    visibility: hidden;
-    transition: opacity 0.6s ease-out, transform 0.8s ease-out;
-    will-change: opacity, visibility;
-  }
-  
-  
-  .about-fade-in.is-visible{
-    opacity: 1;
-    transform: none;
-    visibility: visible;
-  }
-  .info h1{
-    padding-top: 2vw;
-    padding-left: 10vw;
-    font-weight: 600;
-    font-size: 2.5vw;
-  }
-  .info p{
-    padding-left: 12vw;
-    padding-right: 5vw;
-  }
-  .info h2{
-    padding-left: 10vw;
-    font-weight: 600;
-    font-size: 1.5vw;
-  }
-  .info h3{
-    padding-left: 10.5vw;
-    font-weight: 600;
-    font-size: 1vw;
-  }
-  .info a{
-    padding-left: 12vw;
-    padding-right: 5vw;
-  }
-  .link{
-    text-decoration: none;
-    color: rgb(160, 160, 243);
-  }
-  .seneca{
-    display:inline-block;
-    transform: translateY(15%);
-    height: 70%;
-    vertical-align: middle;
-    aspect-ratio: 100%;
-  }
-}
-@media only screen and (min-width: 1980px) and (max-width: 3120px){
-  .div_background {
-    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.909), rgba(16, 11, 24, 0.829), rgba(19, 19, 29, 0.918));
-    color: white;
-    scroll-behavior: smooth;
-    padding-bottom: 5vw;
-  }
-  
-  .home_background {
-    display: grid;
-    padding-top: 3vw;
-    margin-top: 0;
-    grid-template-columns: 6fr 4fr;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  }
-  .img_frame{
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 17vw;
-    height: 17vw;
-  }
-  .profilePic {
-    transform: translateY(20%);
-    display:inline-block;
-    height: 80%;
-    vertical-align: middle;
-  }
-  .about-fade-in{
-    opacity: 0;
-    transform: translateY(7vw);
-    visibility: hidden;
-    transition: opacity 0.6s ease-out, transform 0.8s ease-out;
-    will-change: opacity, visibility;
-  }
-  
-  
-  .about-fade-in.is-visible{
-    opacity: 1;
-    transform: none;
-    visibility: visible;
-  }
-  .info h1{
-    padding-top: 2vw;
-    padding-left: 10vw;
-    font-weight: 600;
-    font-size: 1.9vw;
-  }
-  .info p{
-    padding-left: 12vw;
-    padding-right: 5vw;
-    font-size: 1vw;
-  }
-  .info h2{
-    padding-left: 10vw;
-    font-weight: 600;
-    font-size: 1.5vw;
-  }
-  .info h3{
-    padding-left: 10.5vw;
-    font-weight: 600;
-    font-size: 1vw;
-  }
-  .info a{
-    padding-left: 12vw;
-    padding-right: 5vw;
-  }
-  .link{
-    text-decoration: none;
-    color: rgb(160, 160, 243);
-  }
-  .seneca{
-    display:inline-block;
-    transform: translateY(15%);
-    height: 70%;
-    vertical-align: middle;
-    aspect-ratio: 100%;
-  }
+@keyframes turning {
+  0%{ transform: skewx(10deg) scale(0.9);}
+  8%{ transform: skewy(45deg)scale(0.6) ;}
+  46%{ transform: skewY(180deg) scale(0.8) ;}
+  65%{transform: rotate(-9deg);}
+  80%{transform:rotate(360deg) ;}
+  100%{transform:rotate(360deg) ;}
 }
