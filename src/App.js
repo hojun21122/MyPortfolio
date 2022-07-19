@@ -6,6 +6,7 @@ import AboutMe from './Component/AboutMe/aboutMe'
 import Footer from './Component/footer/footer';
 import Contact from './Component/ContactMe/contact'
 import MyPage from './Component/MyPage/mypage'
+import MyDesign from './Component/MyDesign/MyDesign';
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { HashRouter} from "react-router-dom";
@@ -21,7 +22,8 @@ function App(props) {
           <HashRouter basename="/">
             <Route exact path="/" component={Home}>
                 <Home></Home>
-                <About></About>  
+                <About></About>
+                <MyDesign></MyDesign> 
               </Route>
               <Route path="/aboutMe" component={AboutMe}/>
               <Route path="/mypage" component={MyPage}/>

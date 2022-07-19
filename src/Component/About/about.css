@@ -14,6 +14,11 @@
 .about_field{
   display: flex;
   text-align: center;
+  animation: sliding 25s infinite linear;
+  transition: linear 3s;
+}
+.about_field:hover{
+  animation-play-state: paused;
 }
 .about_field .left_field{
   text-align: right;
@@ -235,4 +240,9 @@
   65%{transform: rotate(-9deg);}
   80%{transform:rotate(360deg) ;}
   100%{transform:rotate(360deg) ;}
+}
+
+@keyframes sliding {
+  0%{ transform: 0;}
+  100%{transform: translateX(-155vw);}
 }
