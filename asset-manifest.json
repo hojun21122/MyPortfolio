@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/MyPortfolio/static/css/main.6a37acb9.chunk.css",
-    "main.js": "/MyPortfolio/static/js/main.4e25082f.chunk.js",
-    "main.js.map": "/MyPortfolio/static/js/main.4e25082f.chunk.js.map",
+    "main.js": "/MyPortfolio/static/js/main.19fcb8e8.chunk.js",
+    "main.js.map": "/MyPortfolio/static/js/main.19fcb8e8.chunk.js.map",
     "runtime-main.js": "/MyPortfolio/static/js/runtime-main.32830966.js",
     "runtime-main.js.map": "/MyPortfolio/static/js/runtime-main.32830966.js.map",
     "static/css/2.04488393.chunk.css": "/MyPortfolio/static/css/2.04488393.chunk.css",
@@ -14,7 +14,7 @@
     "static/css/2.04488393.chunk.css.map": "/MyPortfolio/static/css/2.04488393.chunk.css.map",
     "static/css/main.6a37acb9.chunk.css.map": "/MyPortfolio/static/css/main.6a37acb9.chunk.css.map",
     "static/js/2.b3ed9691.chunk.js.LICENSE.txt": "/MyPortfolio/static/js/2.b3ed9691.chunk.js.LICENSE.txt",
-    "static/media/HoJunHwang2022.2647ca6c.pdf": "/MyPortfolio/static/media/HoJunHwang2022.2647ca6c.pdf",
+    "static/media/HoJunHwang Resume 2023.3b117304.pdf": "/MyPortfolio/static/media/HoJunHwang Resume 2023.3b117304.pdf",
     "static/media/home.css": "/MyPortfolio/static/media/IMG_8608-2.540bb0cf.jpg",
     "static/media/IMG_9230.e328cd4c.webp": "/MyPortfolio/static/media/IMG_9230.e328cd4c.webp",
     "static/media/doc.723efe6f.png": "/MyPortfolio/static/media/doc.723efe6f.png",
@@ -35,6 +35,6 @@
     "static/css/2.04488393.chunk.css",
     "static/js/2.b3ed9691.chunk.js",
     "static/css/main.6a37acb9.chunk.css",
-    "static/js/main.4e25082f.chunk.js"
+    "static/js/main.19fcb8e8.chunk.js"
   ]
 }
