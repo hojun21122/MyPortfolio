@@ -1,24 +1,34 @@
 .design-background{
-    background-color: rgb(106, 108, 173);
+    background-color: rgb(190, 52, 85);;
     display: grid;
-    grid-template-columns: 25% 60%;
-    padding: 5vw 5vw 5vw 20vw
+    grid-template-columns: 40% 60% auto;
+    grid-auto-flow: column;
+    padding: 5vw 5vw 5vw 5vw;
+    justify-content: end;
+}
+
+.design-coulum1{
+    text-align: right;
 }
 .design-photocard{
+    display: inline-block;
     width: 20vw;
     height: 26vw;
     background-color: white;
     box-shadow: -2px 2px 3px 1px rgba(0, 0, 0, 0.39);
     text-decoration: none;
+    
 }
 
 .photocard-square{
+    text-align: right;
     color: white;
     width: 20vw;
     height: 20vw;
-    background-color: rgb(102, 103, 171);
+    background-color: rgb(190, 52, 85);
 }
 .square-text{
+    text-align: left;
     padding-top: 6vw;
     padding-left: 2vw;
     text-decoration: none;
@@ -31,11 +41,13 @@
     margin-top: 1vw;
     font-size: 1.2vw;
     color: rgb(32, 32, 32);
+    margin-right: 1vw;
 }
 
 .design-columm2{
-    margin-left: 10vw;
+    margin: 0 12vw 0 5vw;
     color: rgb(248, 248, 248);
+    text-align: left;
 }
 
 .column2-grid{
@@ -49,7 +61,7 @@
     justify-self: center;
     width: 15vw;
     height: 15vw;
-    background: linear-gradient(#33ccff,#ff0066);
+    background: linear-gradient(#BE3455,#ff0066);
     border-radius: 50%;
     animation: spinning 3s linear infinite;
 }
@@ -62,6 +74,15 @@
         transform: rotate(360deg);
     }
 }
+@keyframes bounce{
+    from{
+        transform: scale(1) rotate(0deg);
+    }
+    to{
+        transform: scale(1.1) rotate(360deg);
+    }
+}
+
 .col2-circle::after{
     content: '';
     position: absolute;
@@ -70,7 +91,7 @@
     bottom: 1.5vw;
     left: 1.5vw;
     border-radius: 50%;
-    background-color: rgb(106, 108, 173);;
+    background-color: #BE3455;;
 }
 
 .col2-circle span{
@@ -78,12 +99,13 @@
     width: 100%;
     height: 100%;
     border: 1px solid white;
-    background: linear-gradient(#2f2d3b 3%,#424572 36%, #5e4d9b 54%, #6768ab 72%, #cfcad1 95%);
+    background: linear-gradient( #BE3455 3%,#a12d48 36%, #d88b9d 54%, #daabb6 72%, #cfcad1 95%);
     border-radius: 50%;
 }
 .col2-circle span:nth-child(1){
     filter: blur(5px);
 }
+
 .col2-circle span:nth-child(2){
     filter: blur(3px);
 }
@@ -100,7 +122,7 @@
 }
 
 .col2-btn .col2-btn1{
-    background-color: rgb(106, 108, 173);
+    background-color: rgb(190, 52, 85);;
     color: white;
     border: 1px solid white;
     border-radius: 10%;
@@ -108,11 +130,11 @@
     margin: 1vw;
 }
 .col2-btn .col2-btn1:hover{
-    background-color: rgb(89, 91, 155);
+    background-color: rgb(185, 34, 69);
 }
 
 .col2-btn .col2-btn2{
-    background: linear-gradient(to bottom right,#3e3b50 10%,#424572 36%, #5e4d9b 54%, #6768ab );
+    background: linear-gradient(to bottom right,#d1147c 10%,#db5996 46%, #5965d1 74%, #137ed6 );
     color: white;
     border: 1px solid rgb(100, 101, 143);
     box-shadow: 3px 3px 10px rgb(25, 3, 43);
@@ -127,8 +149,87 @@
     background: linear-gradient(to bottom right,#252231 10%,#262846 36%, #3e316b 54%, #3f4077 );
 }
 
+.col2-btn .col2-btn3{
+    background: rgb(106, 108, 173);
+    color: white;
+    border: 1px solid rgb(47, 48, 83);
+    border-radius: 7%;
+    font-weight: 500;
+    margin: 1vw;
+}
+.col2-btn .col2-btn3:hover{
+    background: rgb(122, 124, 179);
+}
+
+
+.col2-btn .col2-btn5{
+    background: #ec2689;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.486);
+    border-radius: 7%;
+    font-weight: 500;
+    margin: 1vw;
+}
+.col2-btn .col2-btn5:hover{
+    background: #f70369;
+}
+
+.col2-btn .col2-btn4{
+    background: rgb(219, 188, 130);
+    color: white;
+    border: 1px solid #ebab367c;
+    border-radius: 7%;
+    font-weight: 500;
+    margin: 1vw;
+}
+.col2-btn .col2-btn4:hover{
+    background: rgb(109, 136, 145);
+}
+
+.col2-btn .col2-btn6{
+    background: #F5DF4D;
+    color: white;
+    border: 1px solid rgba(252, 252, 253, 0.5);
+    border-radius: 7%;
+    font-weight: 500;
+    margin: 1vw;
+}
+.col2-btn .col2-btn6:hover{
+    background: #d4bf32;
+}
 
 .design-coulum1 a:link { text-decoration: none; }
 .design-coulum1 a:visited { text-decoration: none; }
 .design-coulum1 a:hover { text-decoration: none; }
 .design-coulum1 a:active { text-decoration: none; }
+
+@media only screen and (max-width: 480px) {
+    h1{
+        font-size: 3vw;
+    }
+    .design-columm2 p{
+        font-size: 1.5vw;
+    }
+    .col2-circle{
+        position: relative;
+        justify-self: center;
+        width: 7vw;
+        height: 7vw;
+        background: linear-gradient(#BE3455,#ff0066);
+        border-radius: 50%;
+        animation: spinning 3s linear infinite;
+    }
+    .col2-circle::after{
+        content: '';
+        position: absolute;
+        top: 1vw;
+        right: 1vw;
+        bottom: 1vw;
+        left: 1vw;
+        border-radius: 60%;
+        background-color: #BE3455;
+    }
+    button{
+        font-size: 1vw;
+    }
+}

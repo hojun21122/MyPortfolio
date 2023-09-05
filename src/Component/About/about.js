@@ -56,10 +56,10 @@ function About() {
                         <div className="left_field">
                           <div className="card_section_left2">
                               <div className="img_frame">
-                                  <img src={korea} className="profilePic" alt="profile"></img>
+                                  <img src={korea} className="skills" alt="profile"></img>
                               </div>
                                   <div className="info">
-                                      <h1>I am an Immigrant</h1>
+                                      <h1>I am a Bilingual</h1>
                                       <p> I Immigrated from Korea to Canada in 2012 which allow me to  speak Korean and English fluently.</p>
                                   </div>
                           </div>
@@ -137,10 +137,10 @@ function About() {
                         <div className="left_field">
                           <div className="card_section_left2">
                               <div className="img_frame">
-                                  <img src={korea} className="profilePic" alt="profile"></img>
+                                  <img src={korea} className="skills" alt="profile"></img>
                               </div>
                                   <div className="info">
-                                      <h1>I am an Immigrant</h1>
+                                      <h1>I am a Bilingual</h1>
                                       <p> I Immigrated from Korea to Canada in 2012 which allow me to  speak Korean and English fluently.</p>
                                   </div>
                           </div>
